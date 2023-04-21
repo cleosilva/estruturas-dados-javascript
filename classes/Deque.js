@@ -69,6 +69,10 @@ class Deque {
         return this.items[this.count -1]
     }
 
+    size() {
+        return this.count - this.lowestCount;
+    }
+
 }
 
 export default Deque;

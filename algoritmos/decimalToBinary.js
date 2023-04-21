@@ -1,6 +1,6 @@
 import Stack from "./classes/Stack.js";
 
-function decimalToBinary(decNumber){
+export function decimalToBinary(decNumber){
     const remStack = new Stack();
 
     let number = decNumber;

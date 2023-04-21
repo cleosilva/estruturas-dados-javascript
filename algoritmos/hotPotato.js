@@ -7,7 +7,7 @@ import Queue from './classes/Queue.js';
  * @returns {string}
  */
 
-function hotPotato(elementsList, num) {
+export function hotPotato(elementsList, num) {
     const queue = new Queue();
     const elimitatedList = [];
 
@@ -27,5 +27,3 @@ function hotPotato(elementsList, num) {
     }
 
 }
-
-export default hotPotato;

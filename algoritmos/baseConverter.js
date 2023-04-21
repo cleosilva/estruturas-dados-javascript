@@ -8,7 +8,7 @@ import Stack from "../classes/Stack.js";
  * 
  */
 
-function baseConverter(decNumber, base){
+export function baseConverter(decNumber, base){
     const remStack = new Stack();
     const digits = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
