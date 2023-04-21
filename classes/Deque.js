@@ -1,4 +1,7 @@
-// fila de duas pontas FIFO e LIFO
+
+/**
+ * fila de duas pontas FIFO e LIFO
+ */
 
 class Deque {
 

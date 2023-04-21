@@ -1,5 +1,12 @@
 import Queue from './classes/Queue.js';
 
+/**
+ * Função que simula o jogo batata quente
+ * @param {[string]} elementsList
+ * @param {number} num 
+ * @returns {string}
+ */
+
 function hotPotato(elementsList, num) {
     const queue = new Queue();
     const elimitatedList = [];
