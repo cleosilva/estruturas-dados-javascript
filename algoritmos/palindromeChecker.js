@@ -1,4 +1,4 @@
-import Deque from '../classes/Deque.js'
+import Deque from '../estruturas-dados/Deque.js'
 /**
  * Função que verifica se a palavra é um palíndromo
  * @param {string} aString 
@@ -26,5 +26,3 @@ export function palindromeChecker(aString){
     }
 }
 
-const checkPalindrome = palindromeChecker("kaiak");
-console.log(checkPalindrome)

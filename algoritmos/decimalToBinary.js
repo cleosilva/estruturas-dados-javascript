@@ -1,4 +1,4 @@
-import Stack from "./classes/Stack.js";
+import Stack from "./estruturas-dados/Stack.js";
 
 export function decimalToBinary(decNumber){
     const remStack = new Stack();
@@ -25,8 +25,4 @@ export function decimalToBinary(decNumber){
     }
 
     return binaryString;
-
 }
-
-console.log(decimalToBinary(233))
-console.log(decimalToBinary(10))

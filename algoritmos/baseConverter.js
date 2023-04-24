@@ -1,4 +1,4 @@
-import Stack from "../classes/Stack.js";
+import Stack from "../estruturas-dados/Stack.js";
 
 /**
  * Conversor de decimal para as bases de 2 a 36
@@ -33,11 +33,6 @@ export function baseConverter(decNumber, base){
     return baseString;
 
 }
-
-console.log(baseConverter(100345, 2))
-console.log(baseConverter(100345, 8))
-console.log(baseConverter(100345, 16))
-console.log(baseConverter(100345, 35))
 
 
 

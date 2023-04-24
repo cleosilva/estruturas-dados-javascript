@@ -1,4 +1,4 @@
-import Queue from './classes/Queue.js';
+import Queue from './estruturas-dados/Queue.js';
 
 /**
  * Função que simula o jogo batata quente
