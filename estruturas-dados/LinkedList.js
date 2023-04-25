@@ -103,6 +103,11 @@ export default class LinkedList {
     return this.size() === 0;
   }
 
+  clear() {
+    this.head = undefined;
+    this.count = 0;
+  }
+
   getHead(){
     return this.head;
   }

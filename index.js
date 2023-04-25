@@ -1,23 +1,15 @@
+import DoublyLinkedList from "./estruturas-dados/DoublyLinkedList.js";
 import LinkedList from "./estruturas-dados/LinkedList.js";
 
-const linkedList = new LinkedList();
+const doublyLinkedList = new DoublyLinkedList();
 
-linkedList.push(15);
-linkedList.push(10);
-linkedList.push(20);
-linkedList.push(12);
+doublyLinkedList.insert(19, 0);
+doublyLinkedList.insert(25, 1);
+//doublyLinkedList.removeAt(2)
 
+//console.log('Index: ',doublyLinkedList.indexOf(25))
+//console.log('Index: ',doublyLinkedList.getTail())
 
-
-//linkedList.removeAt()
-linkedList.insert(22, 5)
-console.log(linkedList.toString())
-console.log('índice: ',linkedList.indexOf(20));
-
-//linkedList.remove(20);
-console.log(linkedList.toString())
-console.log(linkedList.isEmpty())
-console.log(linkedList.getHead())
-
-
-
+//doublyLinkedList.clear()
+console.log(doublyLinkedList.toString())
+console.log(doublyLinkedList.inverseToString())
