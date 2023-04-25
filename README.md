@@ -13,6 +13,9 @@
 </br>
 
 * [LinkedList](https://github.com/cleosilva/estruturas-dados-javascript/blob/main/estruturas-dados/LinkedList.js): os arrays são a estrutura de dados mais utilizadas para armazenar elementos, No entanto, ela apresenta algumas desvantagens: o tamanho do array é fixo em algumas linguagens e inserir ou remover elementos no início ou no meio do array, é custoso, pois os elementos têm de sofrer um deslocamento(apesar de JavaScript ter métodos que farão isso, é isso que acontece internamente também). As listas ligadas armazenam uma coleção sequencial de elementos; no entanto, de modo diferente dos arrays, nas listas ligadas os elementos não são posicionados de forma contínua na memória. Cada elemento é constituído de um nó que armazena o elemento, além de uma referência(também conhecido como ponteiro ou ligação) que aponta para o próprio elemento. Uma das vantagens da lista ligada em relação ao array é que não é necessário deslocar os elementos quando eles são adicionados ou removidos.
+</br>
+
+* [DoublyLinkedList](https://github.com/cleosilva/estruturas-dados-javascript/blob/main/estruturas-dados/DoublyLinkedList.js): a diferença entre uma lista duplamente ligada e uma lista ligada comum é que, nessa última, fazemos ligação somente de um nó para o próximo, enquanto, em uma lista duplamente ligada, temos uma ligação dupla: uma para o próximo elemento e outra para o elemento anterior.
 
 
 #### Referências:
