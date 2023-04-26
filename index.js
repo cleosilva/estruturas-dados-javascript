@@ -1,15 +1,9 @@
-import DoublyLinkedList from "./estruturas-dados/DoublyLinkedList.js";
-import LinkedList from "./estruturas-dados/LinkedList.js";
+import CircularLinkedList from "./estruturas-dados/CircularLinkedList.js";
 
-const doublyLinkedList = new DoublyLinkedList();
+const circularLinkedList = new CircularLinkedList();
 
-doublyLinkedList.insert(19, 0);
-doublyLinkedList.insert(25, 1);
-//doublyLinkedList.removeAt(2)
+circularLinkedList.insert(10, 0)
+circularLinkedList.push(15)
 
-//console.log('Index: ',doublyLinkedList.indexOf(25))
-//console.log('Index: ',doublyLinkedList.getTail())
+console.log(circularLinkedList)
 
-//doublyLinkedList.clear()
-console.log(doublyLinkedList.toString())
-console.log(doublyLinkedList.inverseToString())

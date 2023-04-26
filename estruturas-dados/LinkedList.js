@@ -1,6 +1,10 @@
 import { defaultEquals } from "../utils/util.js";
 import { Node } from "./models/linked-list-models.js";
 
+/**
+ * Lista ligada
+ */
+
 export default class LinkedList {
   constructor(equalsFn = defaultEquals) {
     this.count = 0;
