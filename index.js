@@ -1,9 +1,12 @@
-import CircularLinkedList from "./estruturas-dados/CircularLinkedList.js";
+import SortedLinkedList from "./estruturas-dados/SortedLinkedList.js";
 
-const circularLinkedList = new CircularLinkedList();
+const sortedLinkedList = new SortedLinkedList();
 
-circularLinkedList.insert(10, 0)
-circularLinkedList.push(15)
+sortedLinkedList.insert(10);
+sortedLinkedList.insert(15);
+sortedLinkedList.push(20);
 
-console.log(circularLinkedList)
 
+
+
+console.log(sortedLinkedList.toString())
