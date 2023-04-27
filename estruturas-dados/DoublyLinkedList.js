@@ -49,10 +49,10 @@ export default class DoublyLinkedList extends LinkedList {
   }
 
   removeAt(index) {
-    if (index >= 0 && index <= this.count) {
+    if (index >= 0 && index < this.count) {
       let current = this.head;
       if (index === 0) {
-        this.head = current.next; // apontando head para o próximo current
+        this.head = this.head.next; // apontando head para o próximo current
         if (this.count === 1) {
           // verificando se o elemento é o primeiro
           this.tail = undefined;

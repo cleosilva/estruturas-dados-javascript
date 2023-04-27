@@ -1,12 +1,16 @@
-import SortedLinkedList from "./estruturas-dados/SortedLinkedList.js";
-
-const sortedLinkedList = new SortedLinkedList();
-
-sortedLinkedList.insert(10);
-sortedLinkedList.insert(15);
-sortedLinkedList.push(20);
+import DoublyLinkedList from "./estruturas-dados/DoublyLinkedList.js";
 
 
+const doublyLinkedList = new DoublyLinkedList();
+
+doublyLinkedList.insert(5, 0);
+doublyLinkedList.insert(10, 1);
+doublyLinkedList.insert(8, 2);
+doublyLinkedList.insert(11, 1);
 
 
-console.log(sortedLinkedList.toString())
+doublyLinkedList.removeAt(0)
+
+
+
+console.log(doublyLinkedList.toString())

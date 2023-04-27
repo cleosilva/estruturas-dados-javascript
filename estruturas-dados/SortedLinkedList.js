@@ -1,6 +1,10 @@
 import LinkedList from './LinkedList.js';
 import { defaultCompare, defaultEquals, Compare } from '../utils/util.js';
 
+/**
+ * Lista Ligada Ordenada
+ */
+
 export default class SortedLinkedList extends LinkedList {
     constructor(equalsFn = defaultEquals, compareFn = defaultCompare) {
         super(equalsFn);
