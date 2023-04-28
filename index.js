@@ -1,16 +1,16 @@
-import DoublyLinkedList from "./estruturas-dados/DoublyLinkedList.js";
+import Set from './estruturas-dados/Set.js'
 
+const set = new Set();
 
-const doublyLinkedList = new DoublyLinkedList();
+set.add(2)
+set.add(3)
+console.log(set.has(2))
+//set.delete(2)
+console.log(set.has(2))
 
-doublyLinkedList.insert(5, 0);
-doublyLinkedList.insert(10, 1);
-doublyLinkedList.insert(8, 2);
-doublyLinkedList.insert(11, 1);
+console.log(set.size())
 
-
-doublyLinkedList.removeAt(0)
-
-
-
-console.log(doublyLinkedList.toString())
+console.log(set.values())
+console.log(set)
+//set.clear();
+//console.log(set)
