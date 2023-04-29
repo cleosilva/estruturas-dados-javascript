@@ -1,16 +1,29 @@
 import Set from './estruturas-dados/Set.js'
 
-const set = new Set();
+const setA = new Set();
 
-set.add(2)
-set.add(3)
-console.log(set.has(2))
-//set.delete(2)
-console.log(set.has(2))
+setA.add(1)
+setA.add(2)
 
-console.log(set.size())
+const setB = new Set();
 
-console.log(set.values())
-console.log(set)
-//set.clear();
-//console.log(set)
+setB.add(1)
+setB.add(2)
+setB.add(3)
+
+const setC = new Set();
+
+setC.add(2)
+setC.add(3)
+setC.add(4)
+
+console.log(setA.isSubsetOf(setB));
+console.log(setA.isSubsetOf(setC));
+
+
+
+
+
+
+
+
