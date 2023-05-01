@@ -2,7 +2,7 @@ import { defaultToString } from "../utils/util.js";
 import { ValuePair } from "./models/value-pair.js";
 
 /**
- * Usando charCodeAt da String de javascript
+ * Usando charCodeAt da classe String de javascript
  * @see {@link https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt}
  */
 
