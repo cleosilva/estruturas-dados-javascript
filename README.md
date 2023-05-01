@@ -22,6 +22,13 @@
 </br>
 
 * [Dictionary](https://github.com/cleosilva/estruturas-dados-javascript/blob/main/estruturas-dados/Dictionary.js): Um dicionário é usado para armazenar pares [chave, valor], em que a chave pode ser usada para encontrar um elemento em particular.
+</br>
+
+*[HashTable](): O hashing consiste em encontrar um valor em uma estrutura de dados o mais rápido possível. Quando usamos uma função de hash, já sabemos em que posição o valor se encontra, portanto, podemos simplesmente o acessar. Uma função de hash é uma função que, dada uma key, devolve o endereço em que o valor está na tabela.
+**Dictionary Vs HashTable**: As duas classes são muito parecidas. A diferença está no fato de que, na classe Dictionary, armazenamos o Value Pair na propriedade key de table (depois de ter sido transformada em string); na classe HashTable, geramos um número a partir da key (hash) e armazenamos o ValuePair na posição (ou propriedade) hash.
+</br>
+
+
 
 #### Referências:
 * GRONER, Loiane. Estrutura de dados e algoritmos com JavaScript. 2ª Edição. São Paulo: Novatec, 2018.

@@ -1,32 +1,24 @@
+import HashTable from "./estruturas-dados/HashTable.js";
 
-import Dictionary from "./estruturas-dados/Dictionary.js"
-
-const dictionary = new Dictionary()
-
-dictionary.set('Gandalf', 'gandalf@email.com')
-dictionary.set('John', 'johnsnow@email.com')
-dictionary.set('Tyrion', 'tyrion@email.com')
-
-// console.log(dictionary.hasKey('Gandalf'))
-
-// dictionary.remove('Gandalf')
-// console.log(dictionary.hasKey('Gandalf'))
+const hash = new HashTable
 
 
-// //console.log(dictionary)
-// console.log(dictionary.get('John'))
+hash.put('Ygritte', 'ygritte@email.com')
+hash.put('Jonathan', 'jonathan@email.com')
+hash.put('Jamie', 'jamie@email.com')
+hash.put('Jack', 'jack@email.com')
+hash.put('Jasmine', 'jasmine@email.com')
+hash.put('Jake', 'jake@email.com')
+hash.put('Nathan', 'nathan@email.com')
+hash.put('Athelstan', 'athelstan@email.com')
+hash.put('Sue', 'sue@email.com')
+hash.put('Aethelwulf', 'wulf@email.com')
+hash.put('Sargeras', 'sar@email.com')
 
-// console.log(dictionary.keyValues())
-// console.log(dictionary.keys())
-// console.log(dictionary.values())
-
-dictionary.forEach((k,v) => {console.log('forEach: ', `key: ${k}, value: ${v}` )})
-
-console.log(dictionary.size())
-console.log(dictionary.isEmpty())
-//console.log(dictionary.clear())
-
-console.log(dictionary.toString())
+console.log(hash.size())
+console.log(hash.isEmpty())
 
 
 
+
+console.log(hash.toString())
