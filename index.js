@@ -1,29 +1,32 @@
-import Set from './estruturas-dados/Set.js'
 
-const setA = new Set();
+import Dictionary from "./estruturas-dados/Dictionary.js"
 
-setA.add(1)
-setA.add(2)
+const dictionary = new Dictionary()
 
-const setB = new Set();
+dictionary.set('Gandalf', 'gandalf@email.com')
+dictionary.set('John', 'johnsnow@email.com')
+dictionary.set('Tyrion', 'tyrion@email.com')
 
-setB.add(1)
-setB.add(2)
-setB.add(3)
+// console.log(dictionary.hasKey('Gandalf'))
 
-const setC = new Set();
-
-setC.add(2)
-setC.add(3)
-setC.add(4)
-
-console.log(setA.isSubsetOf(setB));
-console.log(setA.isSubsetOf(setC));
+// dictionary.remove('Gandalf')
+// console.log(dictionary.hasKey('Gandalf'))
 
 
+// //console.log(dictionary)
+// console.log(dictionary.get('John'))
 
+// console.log(dictionary.keyValues())
+// console.log(dictionary.keys())
+// console.log(dictionary.values())
 
+dictionary.forEach((k,v) => {console.log('forEach: ', `key: ${k}, value: ${v}` )})
 
+console.log(dictionary.size())
+console.log(dictionary.isEmpty())
+//console.log(dictionary.clear())
+
+console.log(dictionary.toString())
 
 
 
