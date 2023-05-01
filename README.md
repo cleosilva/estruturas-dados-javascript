@@ -16,7 +16,12 @@
 </br>
 
 * [DoublyLinkedList](https://github.com/cleosilva/estruturas-dados-javascript/blob/main/estruturas-dados/DoublyLinkedList.js): a diferença entre uma lista duplamente ligada e uma lista ligada comum é que, nessa última, fazemos ligação somente de um nó para o próximo, enquanto, em uma lista duplamente ligada, temos uma ligação dupla: uma para o próximo elemento e outra para o elemento anterior.
+</br>
 
+* [Set](https://github.com/cleosilva/estruturas-dados-javascript/blob/main/estruturas-dados/Set.js): Um conjunto(set) é uma coleção não ordenada de itens, composta de elementos únicos (isto é, não podem ser repetidos). Essa estrutura usa o mesmo conceito matemático dos conjuntos finitos, porém aplicados a uma estrutura de dados em ciência da computação. Podemos pensar também em conjuntos como um array sem elementos repetidos e sem o conceito de ordem.
+</br>
+
+* [Dictionary](https://github.com/cleosilva/estruturas-dados-javascript/blob/main/estruturas-dados/Dictionary.js): Um dicionário é usado para armazenar pares [chave, valor], em que a chave pode ser usada para encontrar um elemento em particular.
 
 #### Referências:
 * GRONER, Loiane. Estrutura de dados e algoritmos com JavaScript. 2ª Edição. São Paulo: Novatec, 2018.
