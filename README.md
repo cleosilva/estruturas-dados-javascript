@@ -27,8 +27,8 @@
 * [HashTable](https://github.com/cleosilva/estruturas-dados-javascript/blob/main/estruturas-dados/HashTable.js): O hashing consiste em encontrar um valor em uma estrutura de dados o mais rápido possível. Quando usamos uma função de hash, já sabemos em que posição o valor se encontra, portanto, podemos simplesmente o acessar. Uma função de hash é uma função que, dada uma key, devolve o endereço em que o valor está na tabela.
 <strong>Dictionary Vs HashTable</strong>: As duas classes são muito parecidas. A diferença está no fato de que, na classe Dictionary, armazenamos o Value Pair na propriedade key de table (depois de ter sido transformada em string); na classe HashTable, geramos um número a partir da key (hash) e armazenamos o ValuePair na posição (ou propriedade) hash.
 **Tratando colisões da HashTable**: 
-* [Separate Chaining](): consiste em criar uma lista ligada para cada posição da tabela e armazenar os elementos. É a técnica mais simples, no entanto, ela exige memória extra, além daquela ocupada pela instância de HashTable.
-* [Linear Sondagem](): É chamada linear porque a colisão é tratada de modo que os valores serão armazenados diretamente na tabela, e não em uma estrutura de dados separada. Ao adicionar um elemento se a position estiver ocupada iteramos adicionando position + 1 até que uma posição livre seja encontrada.
+* [Separate Chaining](https://github.com/cleosilva/estruturas-dados-javascript/blob/main/estruturas-dados/HashTableSeparateChaining.js): consiste em criar uma lista ligada para cada posição da tabela e armazenar os elementos. É a técnica mais simples, no entanto, ela exige memória extra, além daquela ocupada pela instância de HashTable.
+* [Linear Sondagem](https://github.com/cleosilva/estruturas-dados-javascript/blob/main/estruturas-dados/HashTableLinearProbing.js): É chamada linear porque a colisão é tratada de modo que os valores serão armazenados diretamente na tabela, e não em uma estrutura de dados separada. Ao adicionar um elemento se a position estiver ocupada iteramos adicionando position + 1 até que uma posição livre seja encontrada.
 </br>
 
 
