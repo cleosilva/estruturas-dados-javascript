@@ -1,9 +1,11 @@
-import { MinHeap } from "./estruturas-dados/MinHeap.js";
+import { MaxHeap, MinHeap } from "./estruturas-dados/Heap.js";
 
-const heap = new MinHeap();
+const heap = new MaxHeap();
 
-for (let i = 1; i < 10; i++) {
-    heap.insert(i)
-}
+heap.heapify([2,4,1,5,6])
 
-console.log('Extract Minimun ', heap.extract())
+// for (let i = 1; i < 10; i++) {
+//     heap.insert(i)
+// }
+
+console.log('Extract Minimun ', heap)

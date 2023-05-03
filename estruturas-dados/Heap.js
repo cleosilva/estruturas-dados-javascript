@@ -1,4 +1,4 @@
-import { Compare, defaultCompare, swap } from '../utils/util.js';
+import { Compare, defaultCompare, reverseCompare, swap } from '../utils/util.js';
 
 export class MinHeap {
     constructor(compareFn = defaultCompare){
@@ -68,5 +68,31 @@ export class MinHeap {
             swap(this.heap, index, element);
             this.siftDown(element);
         }
+    }
+    heapify(array) { // recebe um array como parâmetro inserindo os elementos
+        if (array) {
+          this.heap = array;
+        }
+        const maxIndex = Math.floor(this.size() / 2) - 1;
+        for (let i = maxIndex; i >= 0; i--) {
+          this.siftDown(i);
+        }
+        return this.heap;
+    }
+    getAsArray() {
+        return this.heap;
+    }
+}
+
+/**
+ * A classe MaxHeap será praticamente o mesmo da classe MinHeap
+ * a diferença é que sempre que houver uma comparação > (maior que),
+ * ela será trocada pela comparação < (menor que)
+ */
+
+export class MaxHeap extends MinHeap {
+    constructor(compareFn = defaultCompare){
+        super(compareFn);
+        this.compareFn = reverseCompare(compareFn);
     }
 }
