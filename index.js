@@ -1,22 +1,34 @@
-import HashTableLinearProbing from "./estruturas-dados/HashTableLinearProbing.js";
+import BinarySearchTree from "./estruturas-dados/BinarySearchTree.js";
 
-const hash = new HashTableLinearProbing()
+const tree = new BinarySearchTree();
+
+tree.insert(11)
+tree.insert(7)
+tree.insert(15)
+tree.insert(5)
+tree.insert(3)
+tree.insert(9)
+tree.insert(8)
+tree.insert(10)
+tree.insert(13)
+tree.insert(12)
+tree.insert(14)
+tree.insert(20)
+tree.insert(18)
+tree.insert(25)
+tree.insert(6)
 
 
-hash.put('Ygritte', 'ygritte@email.com')
-hash.put('Jonathan', 'jonathan@email.com')
-hash.put('Jamie', 'jamie@email.com')
-hash.put('Jack', 'jack@email.com')
-hash.put('Jasmine', 'jasmine@email.com')
-hash.put('Jake', 'jake@email.com')
-hash.put('Nathan', 'nathan@email.com')
-hash.put('Athelstan', 'athelstan@email.com')
-hash.put('Sue', 'sue@email.com')
-hash.put('Aethelwulf', 'wulf@email.com')
-hash.put('Sargeras', 'sar@email.com')
+const total = 0;
 
-console.log(hash.get('Jamie'))
-hash.remove('Jonathan')
+const printNode = (value) => console.log(value)
+//const somaNode = (value) => {total += value}
 
+// tree.inOrderTraverse(printNode)
+// console.log("-----------")
+// tree.preOrderTraverse(printNode)
+// console.log("-----------")
+// tree.postOrderTraverse(printNode)
 
-console.log(hash)
+console.log(tree.search(1))
+console.log(tree.search(8))
