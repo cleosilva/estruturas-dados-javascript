@@ -32,7 +32,7 @@
 </br>
 
 * **Tree (Árvore):** Estrutura de dados não sequencial muito útil para armazenar informações que devam ser encontradas facilmente.
-    * [BinarySearchTree](): Uma árvore binária de busca é uma árvore que permite armazenar somente nós com valores menores do lado esquerdo e nós com valores maiores do lado direito.
+    * [BinarySearchTree](https://github.com/cleosilva/estruturas-dados-javascript/blob/main/estruturas-dados/BinarySearchTree.js): Uma árvore binária de busca é uma árvore que permite armazenar somente nós com valores menores do lado esquerdo e nós com valores maiores do lado direito.
 
 ### Como usar este repositório
 
@@ -52,6 +52,7 @@ Após instalar as dependências você poderá instanciar e testar as estruturas 
 
 
 #### Referências:
+* [Data Structures Illustrated on Youtube](https://www.youtube.com/playlist?list=PLkZYeFmDuaN2-KUIv-mvbjfKszIGJ4FaY)
 * GRONER, Loiane. Estrutura de dados e algoritmos com JavaScript. 2ª Edição. São Paulo: Novatec, 2018.
 
 Em contrução 🚧 
